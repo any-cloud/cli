@@ -18,9 +18,13 @@
     "yarg-scripts": "^0.0.3"
   },
   "devDependencies": {
+    "@any-cloud/core": "*",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "@any-cloud/core": "*"
   }
 }

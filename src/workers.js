@@ -1,10 +1,10 @@
 import { delegateToPlugin } from "./delegateToPlugin";
 
 export default delegateToPlugin({
-  command: "http",
+  command: "workers",
   aliases: [],
-  desc: "start the http service with currently selected plugin",
+  desc: "start the workers service with currently selected plugin",
   builder: yargs => {
-    yargs.option("port");
+    yargs.option("num");
   }
 });
