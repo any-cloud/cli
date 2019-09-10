@@ -1,18 +1,18 @@
 {
   "name": "@any-cloud/cli",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "manage one codebase accross different cloud providers with simple opinionated framework",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/any-cloud/core",
   "author": "Bryan Goldstein",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src/ --out-dir scripts/",
+    "build": "babel src/ --out-dir dist/",
     "prepublish": "npm run build"
   },
   "bin": {
-    "any-cloud": "./scripts/index.js"
+    "any-cloud": "./dist/index.js"
   },
   "dependencies": {
     "json-fs-db": "^0.1.3",
