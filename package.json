@@ -11,7 +11,7 @@
     "build": "babel src/ --out-dir scripts/"
   },
   "bin": {
-    "any-cloud": "./node_modules/yarg-scripts/index.js"
+    "any-cloud": "./scripts/index.js"
   },
   "dependencies": {
     "json-fs-db": "^0.1.3",
