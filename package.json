@@ -1,6 +1,6 @@
 {
   "name": "@any-cloud/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "manage one codebase accross different cloud providers with simple opinionated framework",
   "main": "src/index.js",
   "repository": "https://github.com/any-cloud/core",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src/ --out-dir scripts/"
+    "build": "babel src/ --out-dir scripts/",
+    "prepublish": "npm run build"
   },
   "bin": {
     "any-cloud": "./scripts/index.js"
