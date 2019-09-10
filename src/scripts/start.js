@@ -1,4 +1,4 @@
-import { delegateToPlugin } from "./delegateToPlugin";
+import { delegateToPlugin } from "../delegateToPlugin";
 
 export default delegateToPlugin({
   command: "start",
