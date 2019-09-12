@@ -15,7 +15,6 @@
     "any-cloud": "./dist/index.js"
   },
   "dependencies": {
-    "json-fs-db": "^0.1.3",
     "yarg-scripts": "^0.0.3"
   },
   "devDependencies": {
