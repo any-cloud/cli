@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "build": "babel src/ --out-dir dist/",
+    "watch": "yarn build --watch",
     "prepublish": "npm run build"
   },
   "bin": {
