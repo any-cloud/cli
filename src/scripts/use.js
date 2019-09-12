@@ -6,8 +6,8 @@ export default {
   desc: "change which plugin is selected",
   builder: yargs => {},
   handler: async argv => {
-    utils.setCurrentPlugin(argv.plugin);
-    console.log("set plugin to: ", await utils.currentPlugin());
+    await utils.setCurrentPlugin(argv.plugin);
+    console.log("set plugin to: ", utils.toPluginName(argv.plugin));
     process.exit(0);
   }
 };
