@@ -1,6 +1,6 @@
 {
   "name": "@any-cloud/cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "manage one codebase accross different cloud providers with simple opinionated framework",
   "main": "dist/index.js",
   "repository": "https://github.com/any-cloud/core",
