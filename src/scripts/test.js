@@ -1,3 +1,4 @@
+import { utils } from "@any-cloud/core";
 import { spawn } from "child_process";
 import path from "path";
 
@@ -9,7 +10,7 @@ export default {
   handler: async argv => {
     const spawnOpts = {
       cwd: path.join(__dirname, "../../"),
-      env: process.env
+      env: { ...process.env, ANY_CLOUD_PATH: utils.chokeUpPath() }
     };
     const child = spawn("yarn", ["test", ...process.argv.slice(3)], spawnOpts);
 
