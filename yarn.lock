@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@any-cloud/core@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@any-cloud/core/-/core-0.0.11.tgz#8370e349c9a482a4d66110c456b4cb07503b9df1"
-  integrity sha512-SkTjJ24jXaFsn8vK6xdl/+amcZbqChED0d75uHMkwi8ggyH+s3rA+TK9N6bE8sq+GdJM86soVzehol52Gup5IA==
+"@any-cloud/core@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@any-cloud/core/-/core-0.0.13.tgz#3e3696f41b82775d4ed896a143ef8da5daea85e0"
+  integrity sha512-JGglSoutmpY016hYWsim68L/a+X7zIFTP2NR6+gdNQiqLiMDyzAw1XJL8vyP0jNA9D/rnyYS+cQUMzcqFP2ZvA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     json-fs-db "^0.1.3"
