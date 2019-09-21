@@ -1,6 +1,6 @@
 {
   "name": "@any-cloud/cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "manage one codebase accross different cloud providers with simple opinionated framework",
   "main": "dist/index.js",
   "repository": "https://github.com/any-cloud/core",
@@ -27,7 +27,7 @@
     "yarg-scripts": "^0.0.3"
   },
   "devDependencies": {
-    "@any-cloud/core": "*",
+    "@any-cloud/core": "^0.0.10",
     "@any-cloud/local": "^0.0.5",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
@@ -37,6 +37,6 @@
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "@any-cloud/core": "*"
+    "@any-cloud/core": "^0.0.10"
   }
 }
